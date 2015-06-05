@@ -19,8 +19,7 @@ main{
 
 .heroSection{
 	display:flex;
-	/*background-color:#393E41;*/
-	height:700px;
+	height:600px;
 	width:100%;
 	margin: 0 auto;
 	flex-direction:column;
@@ -33,23 +32,56 @@ main{
 
 .itemCore{
 	flex-grow:2;
+	align-items:flex-start;
+	margin-top:-60px;
 }
 
 
 .buttonCore{
 	cursor:pointer;
-	background:transparent;
-	border:solid 3px white;
+	background:#00AFEE;
+	border-style:none;
 	height:50px;
 	color:white;
 	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	min-width:100px;
 	font-size:175%;
 	font-weight:bold;
+	padding:10px;
+	border-radius:5px;
+	
 }
 
 .buttonCore:hover{
-	border-color:#00AFEE;
-	color:#00AFEE;
+	border:solid 2px white;
 }
-/*bottom is used for the footer*/
+
+/*styling core content*/
+
+.title{
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight:bold;
+	font-size:500%;
+	margin-top:-50px;
+}
+
+.subtitle{
+	margin-top:-30px;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:200%;
+
+}
+
+.blueFont{
+	color:#00AFEE;
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
