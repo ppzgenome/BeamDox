@@ -1,0 +1,48 @@
+/*core is used on the <main> tag */
+
+
+.core{
+	display:flex;
+	background-color:transparent;
+	height:1000px;
+	width:100%;
+	margin: 0 auto;
+	flex-direction:column;
+}
+
+.heroSection{
+	display:flex;
+	/*background-color:#393E41;*/
+	height:700px;
+	width:100%;
+	margin: 0 auto;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-image:url(../assets/hero2.jpg);
+	background-size: 100% auto;
+	color:white;
+}
+
+.itemCore{
+	flex-grow:2;
+}
+
+
+.buttonCore{
+	cursor:pointer;
+	background:transparent;
+	border:solid 3px white;
+	height:50px;
+	color:white;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	min-width:100px;
+	font-size:175%;
+	font-weight:bold;
+}
+
+.buttonCore:hover{
+	border-color:#00AFEE;
+	color:#00AFEE;
+}
+/*bottom is used for the footer*/

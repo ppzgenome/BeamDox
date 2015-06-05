@@ -1,0 +1,54 @@
+
+/*core is used on the <main> tag*/
+
+.core{
+	display:flex;
+	background-color:cyan;
+	height:auto;
+	width:100%;
+	margin: 0 auto;
+	flex-direction:column;
+}
+
+/*sections styling below*/
+
+.sectionServices{
+	display:flex;
+	background-color:yellow;
+	height:500px;
+	width:100%;
+	margin:0 auto;
+	flex-direction:column;
+	align-items:center;
+}
+
+.sectionBNA{
+	display:flex;
+	background-color:purple;
+	height:500px;
+	width:100%;
+	margin:0 auto;
+	flex-direction:column;
+	align-items:center;
+}
+
+/* both the sercies and before/after sections use a 3-column style for their main contents*/
+
+.sectionThreeColumnContent{
+	display:flex;
+	background-color:grey;
+	height: auto; /* I've set this to auto for now, so that the grey boxes stretch out if we put taller content in*/
+	width:98%;
+	margin: 0 auto;
+	flex-direction:row;
+	justify-content: space-around;
+}
+
+.itemThreeColumnContent{
+	background-color:orange;
+	padding:10px;
+	margin:10px;
+	width:25%;
+}
+
+

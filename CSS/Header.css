@@ -1,0 +1,92 @@
+/*header css style and layout*/
+/*styles header tag and navlink items*/
+
+
+.navigation{
+	display:flex;
+	background-color:black;
+	align-items:center;
+	height:100px;
+	width:100%;
+	margin: 0 auto;
+	flex-direction:row;
+	justify-content:space-around;
+	position:fixed;
+	box-sizing:border-box;
+}
+
+/*logo container*/
+
+.logobox{
+	display:flex;
+	height:100px;
+	width:auto;
+	justify-content:center;
+	align-items:center;
+	padding-left:15px;
+}
+
+/*this gives some space between nav buttons*/
+
+.itemNav{
+	margin:10px;
+	background-color:none;
+}
+
+ 
+ /*this empty item is only for creating a buffer between logo and navlinks*/
+
+.itemEmptyNav{
+	flex:3;
+	background-color:black;
+}
+
+ /*container that holds the button navlinks*/
+.linkContainer{
+	display:flex;
+	background-color:transparent;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:flex-end;
+}
+
+
+/* nav button stylings*/
+
+.buttonLogo{
+	cursor:pointer;
+}
+
+.buttonReg{
+	cursor:pointer;
+	background:transparent;
+	height:30px;
+	color:white;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	min-width:50px;
+	border-style:none;
+	outline: none;
+	font-size:105%;
+	font-weight: bold;
+}
+
+.buttonReg:hover{
+	color:#00AFEE;
+}
+
+.buttonCred{
+	cursor:pointer;
+	background:transparent;
+	border:solid 2px white;
+	height:30px;
+	color:white;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	min-width:50px;
+	font-size:105%;
+	font-weight:bold;
+}
+
+.buttonCred:hover{
+	border-color:#00AFEE;
+	color:#00AFEE;
+}

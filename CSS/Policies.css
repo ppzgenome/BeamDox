@@ -1,0 +1,21 @@
+/*stylesheet for policies pages*/
+
+.policyBody{
+	display:flex;
+	background-color:#393E41;
+	height:auto;
+	width:100%;
+	margin: 0 auto;
+	flex-direction:column;
+	justify-content:center;
+	color:white;
+	
+}
+
+.policyContent{
+	padding:50px;
+}
+
+main p{
+	text-align:justify
+}

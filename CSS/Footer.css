@@ -1,0 +1,75 @@
+/*footer css style and layout*/
+/*bottom is used for the footer*/
+.bottom{
+	display:flex;
+	background-color:black;
+	height:100px;
+	width:100%;
+	margin: 0 auto;
+	flex-direction:row;
+	justify-content:space-around;
+}
+
+/*this styles the box containing copyright; immediately following is the selector styling its item */
+
+.copyright{
+	display:flex;
+	background-color:pink;
+	height:100px;
+	width:100%/3;
+	flex-direction:row;
+	justify-content:space-between;
+	
+}
+
+
+.itemCopyRight{
+	background-color:skyblue;
+	margin:10px;
+}
+
+/*this styles the box containing social media links; immediately following is the selector styling those items */
+.socMedia{
+	display:flex;
+	background-color: green;
+	height:100px;
+	width:100%/3;
+	flex-direction:row;
+	justify-content:space-betwen;
+}
+
+.itemSocMedia{
+	background-color:skyblue;
+	padding:10px;
+	margin:10px;
+}
+
+
+/*this styles the box containing policy links; immediately following is the selector styling those items */
+
+.policies{
+	display:flex;
+	background-color:red;
+	height:100px;
+	width:100%/3;
+	flex-direction:row;
+	justify-content:space-between;
+
+}
+
+.itemPolicy{
+	background-color:skyblue;
+	margin:10px;
+}
+
+/*footer policies links styling*/
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: underline;
+	color:#00AFEE;
+}
