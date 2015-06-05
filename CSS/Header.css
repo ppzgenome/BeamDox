@@ -1,10 +1,7 @@
 /*header css style and layout*/
 /*styles header tag and navlink items*/
 
-html, body{
-	margin:0px;
-	padding:0px;
-}
+
 
 .navigation{
 	display:flex;

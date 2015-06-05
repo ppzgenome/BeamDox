@@ -1,5 +1,13 @@
 /*core is used on the <main> tag */
 
+html, body{
+	margin:0px;
+	padding:0px;
+}
+
+main{
+	padding-top:100px;
+}
 .core{
 	display:flex;
 	background-color:transparent;
