@@ -1,15 +1,4 @@
 
-/*core is used on the <main> tag*/
-
-.core{
-	display:flex;
-	background-color:cyan;
-	height:auto;
-	width:100%;
-	margin: 0 auto;
-	flex-direction:column;
-}
-
 /*sections styling below*/
 
 .sectionServices{
@@ -20,6 +9,7 @@
 	margin:0 auto;
 	flex-direction:column;
 	align-items:center;
+	
 }
 
 .sectionBNA{
