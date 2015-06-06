@@ -17,11 +17,11 @@
 
 .logobox{
 	display:flex;
-	height:100px;
-	width:auto;
+	height:90px;
+	width:90px;
 	justify-content:center;
 	align-items:center;
-	padding-left:15px;
+	margin-left:15px;
 }
 
 /*this gives some space between nav buttons*/
@@ -42,6 +42,7 @@
  /*container that holds the button navlinks*/
 .linkContainer{
 	display:flex;
+	height:100px;
 	background-color:transparent;
 	flex-direction:row;
 	justify-content:space-between;
@@ -55,7 +56,7 @@
 	cursor:pointer;
 }
 
-.buttonReg{
+.navStyle{
 	cursor:pointer;
 	background:transparent;
 	height:30px;
@@ -63,28 +64,37 @@
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	min-width:50px;
 	border-style:none;
+	padding:5px;
 	outline: none;
+	font-size:105%;
+	font-weight: bold;
+	
+}
+
+.navStyle:hover {
+	color:#00AFEE;
+	text-decoration:none;
+}
+
+.navStyleCred{
+	cursor:pointer;
+	background:transparent;
+	height:30px;
+	color:white;
+	border: 2px solid white;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	min-width:50px;
+	padding:5px;
 	font-size:105%;
 	font-weight: bold;
 }
 
-.buttonReg:hover{
+.navStyleCred:hover{
 	color:#00AFEE;
-}
-
-.buttonCred{
-	cursor:pointer;
-	background:transparent;
-	border:solid 2px white;
-	height:30px;
-	color:white;
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	min-width:50px;
-	font-size:105%;
-	font-weight:bold;
-}
-
-.buttonCred:hover{
+	text-decoration:none;
 	border-color:#00AFEE;
-	color:#00AFEE;
+}
+
+.clearDash{
+	color:transparent;
 }
