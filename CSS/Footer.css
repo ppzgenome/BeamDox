@@ -1,6 +1,7 @@
 /*footer css style and layout*/
-/*bottom is used for the footer*/
 
+
+/*bottom is used for the footer*/
 .bottom{
 	display:flex;
 	background-color:black;
@@ -17,7 +18,7 @@
 .copyright{
 	display:flex;
 	height:80px;
-	width:100%/3;
+	width:100%;
 	justify-content:flex-start;
 	align-items:center;
 	color:white;
@@ -25,27 +26,28 @@
 	margin-left:15px;
 	font-size:90%;
 	font-weight:bold;
-	
 }
-
 
 /*this styles the box containing social media links; immediately following is the selector styling those items */
 .socMedia{
 	display:flex;
 	height:auto;
-	width:100%/3;
+	width:100%;
 	justify-content:center;
 	align-items:center;
-	flex-grow:2;
 }
 
+.socMedia a{
+	margin-left:10px;
+	margin-right:10px;
+}
 
 /*this styles the box containing policy links; immediately following is the selector styling those items */
 .policies{
 	display:flex;
-	width:100%/3;
+	width:100%;
 	flex-direction:row;
-	justify-content:space-between;
+	justify-content:flex-end;
 }
 
 .policyStyle{
