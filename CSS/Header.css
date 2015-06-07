@@ -14,8 +14,8 @@ nav{
 	position:fixed;
 }
 
-/*logo container*/
 
+/*logo container*/
 .logobox{
 	display:flex;
 	height:100px;
@@ -27,7 +27,6 @@ nav{
 
  
  /*this empty item is only for creating a buffer between logo and navlinks*/
-
 .itemEmptyNav{
 	flex:3;
 	background-color:black;
@@ -45,9 +44,7 @@ nav{
 }
 
 
-/* nav button stylings*/
-
-
+/* nav link stylings*/
 .navStyle{
 	cursor:pointer;
 	background:transparent;
@@ -59,9 +56,11 @@ nav{
 	outline: none;
 	font-size:105%;
 	font-weight: bold;
-	
 }
 
+nav a{
+	text-decoration:none;
+}
 .navStyle:hover {
 	color:#00AFEE;
 	text-decoration:none;
