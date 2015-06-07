@@ -1,11 +1,12 @@
 /*header css style and layout*/
 /*styles header tag and navlink items*/
 
-.navigation{
+
+nav{
 	display:flex;
 	background-color: rgba(0,0,0,0.5);
 	align-items:center;
-	height:100px;
+	height:auto;
 	width:100%;
 	margin: 0 auto;
 	flex-direction:row;
@@ -17,18 +18,11 @@
 
 .logobox{
 	display:flex;
-	height:90px;
-	width:90px;
-	justify-content:center;
+	height:100px;
+	width:100px;
+	justify-content:flex-start;
 	align-items:center;
-	margin-left:15px;
-}
-
-/*this gives some space between nav buttons*/
-
-.itemNav{
-	margin:10px;
-	background-color:none;
+	margin-left:10px;
 }
 
  
@@ -42,29 +36,26 @@
  /*container that holds the button navlinks*/
 .linkContainer{
 	display:flex;
-	height:100px;
+	width:100%;
+	height:auto;
 	background-color:transparent;
 	flex-direction:row;
-	justify-content:space-between;
-	align-items:flex-end;
+	justify-content:flex-end;
+	align-items:center;
 }
 
 
 /* nav button stylings*/
 
-.buttonLogo{
-	cursor:pointer;
-}
 
 .navStyle{
 	cursor:pointer;
 	background:transparent;
-	height:30px;
 	color:white;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	min-width:50px;
 	border-style:none;
-	padding:5px;
+	margin:10px;
 	outline: none;
 	font-size:105%;
 	font-weight: bold;
@@ -79,12 +70,12 @@
 .navStyleCred{
 	cursor:pointer;
 	background:transparent;
-	height:30px;
 	color:white;
 	border: 2px solid white;
+	padding:5px;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	min-width:50px;
-	padding:5px;
+	margin:10px;
 	font-size:105%;
 	font-weight: bold;
 }

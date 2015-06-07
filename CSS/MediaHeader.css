@@ -1,0 +1,30 @@
+@media (max-width:590px){
+
+	nav{
+		flex-wrap:wrap;
+	}
+	
+	nav img{
+		width:85%;
+	}
+	
+	.logobox{
+		order:0;
+		margin-left:0;
+	}
+	
+	.linkContainer{
+		order:1;
+		width:100%;
+		justify-content:center;
+		border-top: 3px solid white;
+	}
+	
+	.navStyle{
+		font-size:75%;
+	}
+	
+	.navStyleCred{
+		font-size:75%;
+	}
+}
