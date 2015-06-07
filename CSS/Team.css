@@ -1,6 +1,7 @@
-
-
 /*sections styling below*/
+section h1{
+	margin-top:120px;
+}
 
 .sectionTeam{
 	display:flex;

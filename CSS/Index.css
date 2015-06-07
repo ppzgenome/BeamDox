@@ -16,7 +16,7 @@ html, body{
 .heroSection{
 	display:flex;	
 	width:100%;
-	height:auto;	
+	height:100%;	
 	margin: 0 auto;
 	flex-direction:column;
 	justify-content:center;
@@ -25,6 +25,7 @@ html, body{
 	background-repeat:no-repeat;
 	background-size: cover;
 	color:black;
+	
 }
 
 
@@ -35,7 +36,6 @@ html, body{
 	font-weight:bold;
 	font-size:700%;
 	padding-top:150px;
-
 }
 
 .subtitle{
@@ -63,7 +63,7 @@ html, body{
 	font-size:175%;
 	font-weight:bold;
 	padding:10px;
-	
+	margin-bottom:100px;
 	
 }
 
