@@ -7,21 +7,23 @@ section h1{
 .sectionProcess{
 	display:flex;
 	background-color:yellow;
-	height:500px;
+	height:auto;
 	width:100%;
 	margin:0 auto;
 	flex-direction:column;
 	align-items:center;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .sectionPrices{
 	display:flex;
 	background-color:purple;
-	height:500px;
+	height:auto;
 	width:100%;
 	margin:0 auto;
 	flex-direction:column;
 	align-items:center;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 /* both the sercies and before/after sections use a 3-column style for their main contents*/

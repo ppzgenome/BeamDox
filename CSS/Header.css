@@ -4,7 +4,7 @@
 
 nav{
 	display:flex;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.3);
 	align-items:center;
 	height:auto;
 	width:100%;
@@ -18,19 +18,19 @@ nav{
 /*logo container*/
 .logobox{
 	display:flex;
-	height:100px;
-	width:100px;
+	height:75px;
+	width:75px;
 	justify-content:flex-start;
 	align-items:center;
-	margin-left:10px;
-}
-
- 
- /*this empty item is only for creating a buffer between logo and navlinks*/
-.itemEmptyNav{
-	flex:3;
+	padding:5px;
+	font-size:500%;
+	color:#00AFEE;
+	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	border: 5px solid #00AFEE;
 	background-color:black;
 }
+
+
 
  /*container that holds the button navlinks*/
 .linkContainer{
